@@ -3,11 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora IMC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <link rel="" href="">
+    <script src="index.js" defer></script>
+    <title>Calculadora IMC</title>
 </head>
 <body>
-    <h1>Olá Mundo!</h1>
+    <div class="container">
+        <div class="titulo">
+            <h2>Calculadora IMC</h2>
+        </div>
+        <div class="input">
+            <label>Nome:</label>
+            <input 
+            type="text"
+            class="input-name"
+            id="input-name"
+            placeholder="Digite seu nome...">
+        </div>
+        <div class="input">
+            <label>Altura:</label>
+            <input 
+            type="number"
+            class="input-altura"
+            id="input-altura"
+            placeholder="Digite sua altura...">
+        <div class="input">
+            <label>Peso:</label>
+            <input 
+            type="number"
+            class="input-peso"
+            id="input-peso"
+            placeholder="Digite seu peso...">
+        </div>
+        <button id="calcular">Calcular</button>
+        <div class="result" id="resultado"></div>
+    </div>
 </body>
 </html>

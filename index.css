@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: darkslategrey;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: auto; /* Alterado para automático para acomodar o conteúdo */
+    padding: 20px; /* Adicionado padding para espaçamento interno */
+    background-color: cadetblue;
+    border-radius: 20px;
+    margin-top: 1%;
+}
+
+.titulo h2 {
+    width: 100%;
+    font: bold 3rem;
+    font-size: 40px;
+    border-bottom: solid 5px white;
+    margin-bottom: 20px; /* Reduzido o valor para espaço menor */
+    color: #fff;
+    text-align: center; /* Alinhado ao centro */
+}
+
+.input {
+    display: flex;
+    flex-direction: column; /* Alterado para coluna */
+    align-items: center; /* Alinhado ao centro */
+    margin-bottom: 10px; /* Reduzido o valor para espaço menor */
+}
+
+.input label {
+    font: bold 1.5rem lato;
+    margin-bottom: 5px; /* Adicionado espaço entre label e input */
+}
+
+.input input {
+    width: 300px; /* Aumentado o tamanho do input para corresponder */
+    height: 40px; /* Reduzido o tamanho para corresponder ao botão */
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    outline: 0;
+    margin-top: 5px; /* Ajustado o espaço superior */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Adicionado espaço superior */
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    font: bold 1.2rem lato;
+    background: forestgreen;
+    color: #fff;
+    border: solid 2px floralwhite ;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: italic 1.5rem lato;
+    box-shadow: 0px 0px 10px black;
+    background: #000;
+    color: rgb(255,198,0);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+  }
